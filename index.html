@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functional Bap-Er-Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <section class="">
+        <h1 class="text-4xl text-center my-8"> This is bap er functionl <span class="text-5xl text-blue-500">BANK</span>
+            !!!</h1>
+        <main>
+            <div class="w-3/4 mx-auto grid grid-cols-3 gap-6 align-center ">
+                <div class="bg-yellow-400  text-white rounded ">
+                    <h2 class="text-4xl mb-4 text-center"> DIPOSIT </h2>
+                    <p class="text-4xl m-2 text-center ">$<span id="diposit-previous">00</span></p>
+
+                </div>
+                <div class="bg-red-400 text-white rounded">
+                    <h2 class="text-4xl text-center">BALANCE</h2>
+                    <p class="text-4xl m-2  text-center">$<span id="main-Balance">1200</span></p>
+
+                </div>
+                <div class="bg-green-400  text-white rounded">
+                    <h2 class="text-4xl mb-2 text-center">WITHDRAW</h2>
+                    <p class="text-4xl m-2 text-center">$<span>00</span></p>
+                </div>
+            </div>
+            <div class="w-3/4 grid grid-cols-2 mx-auto my-8 gap-6 align-center ">
+                <div class="bg-orange-500 p-6 rounded">
+                    <input id="diposit-input" class="p-2 rounded block" type="text" placeholder="please diposit ">
+                    <button id="diposit-balance"
+                        class="border-2 my-4 p-2 rounded bg-green-400 hover:bg-green-600 text-white ">
+                        diposit</button>
+                </div>
+
+                <div class="bg-lime-500 p-6 rounded">
+                    <input class="p-2 rounded block" type="text" placeholder="please withdraw">
+                    <button id="withdraw-balance"
+                        class="border-2 my-4 p-2 rounded bg-green-400 hover:bg-green-600 text-white">
+                        withdraw</button>
+                </div>
+            </div>
+        </main>
+    </section>
+    <script src="javascript/app.js"></script>
+</body>
+
+</html>
